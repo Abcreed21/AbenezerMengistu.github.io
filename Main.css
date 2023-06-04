@@ -298,7 +298,11 @@ body {
 .section-contact .form-contact .submit-input input:hover {
 	background-color: #07395c;
 }
-
+a{
+  background: linear-gradient(90deg, rgb(119, 89, 227) 0%, #07395c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media (max-width: 575.99px) {
 	.section-contact {
 	    padding: 80px 60px;
