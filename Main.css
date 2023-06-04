@@ -144,13 +144,7 @@ body {
   nav {
     font-family: "Audiowide", sans-serif;
   }
-
-  #profile {
-    background-image: url(Img/Welcome\ to\ My\ Portfolio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
+  
   #profile img {
     border-radius: 50%;
     margin-left: 126px;
@@ -192,10 +186,15 @@ body {
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
   }
-
+  #My-Projects .card-header{
+    background: #050621;
+  }
   #My-Projects h1 {
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
+    background: linear-gradient(90deg, rgb(240, 240, 242) 0%, #050505 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   #My-Projects h5 {
     font-family: "Audiowide", sans-serif;
@@ -260,7 +259,7 @@ body {
 	position: absolute;
     top: 5px;
     left: 15px;
-    color: #797948;
+    color: linear-gradient(90deg, #07395c 0%, #fff 10%, #4e54c8 20%);
 }
 
 .section-contact .form-contact .single-input input,
@@ -294,7 +293,7 @@ body {
 .section-contact .form-contact .submit-input input {
 	margin-top: 40px;
     padding: 15px 50px;
-    background-color: #797948;
+    background-color: #050621;
     color: #fff;
     border: none;
     font-weight: 700;
