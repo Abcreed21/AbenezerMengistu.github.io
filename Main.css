@@ -7,6 +7,12 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
+a #Mu {
+  font-family: 'Exo', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #df383f;
+}
+
 .context {
   width: 100%;
   position: absolute;
@@ -326,15 +332,19 @@ nav {
 .section-contact .form-contact .submit-input input {
   margin-top: 40px;
   padding: 15px 50px;
-  background-color: #050621;
-  color: #fff;
-  border: none;
-  font-weight: 700;
-  transition: background-color .3s;
+  color: rgb(82, 3, 250);
+  border:none;
+  box-shadow: 0 0 40px 40px
+       #050621 inset,
+        0 0 0 0 #050621;
+  transition: all 150ms
+         ease-in-out;
 }
 
 .section-contact .form-contact .submit-input input:hover {
-  background-color: #07395c;
+  box-shadow: 0 0 10px 0 
+  #050621 inset,
+   0 0 10px 4px #050621;
 }
 
 a {
